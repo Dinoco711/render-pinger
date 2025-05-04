@@ -1,7 +1,6 @@
 name: Ping Render Server Every 13 Minutes
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '*/13 * * * *'
 
